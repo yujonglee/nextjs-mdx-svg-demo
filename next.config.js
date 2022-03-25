@@ -7,7 +7,7 @@ const nextConfig = {
     config.module.rules.push(
       {
         test: /\.mdx$/,
-        use: [{ loader: '@mdx-js/loader' }]
+        use: ['@mdx-js/loader']
       },
       {
         test: /\.svg$/,
